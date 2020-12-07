@@ -1,0 +1,31 @@
+{
+  "name": "gc-scrapper-api",
+  "version": "1.0.0",
+  "description": "a worker for scraping gc and sendin telegram notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaquinBattilana/gc-scrapper-api.git"
+  },
+  "author": "Joaquin Battilana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaquinBattilana/gc-scrapper-api/issues"
+  },
+  "homepage": "https://github.com/JoaquinBattilana/gc-scrapper-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
